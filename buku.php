@@ -16,7 +16,7 @@
 			<div class="card-body">
 				<h5 class="card-title" style="text-align: center;"><?=$dt_buku['nama_buku']?></h5>
 				<p class="card-text"><?=substr($dt_buku['deskripsi'], 0, 40)?></p>
-				<a href="pinjam_buku.php?id_buku<?=$dt_buku['id_buku']?>" class="btn btn-primary">Pinjam</a>
+				<a href="pinjam_buku.php?id_buku=<?=$dt_buku['id_buku']?>" class="btn btn-primary">Pinjam</a>
 			</div>
 		</div>
 	</div>
